@@ -22,12 +22,11 @@
 .nav-link{
   color: #222 !important;
 }
-.nav-link:hover{
+/* .nav-link:hover{
   background-color: #ff6633;
   color: #fff !important;
   border-radius: 5px;
-  /* padding:1px 7px; */
-}
+} */
 
 .orgclr{
   color: #F87431;

@@ -1,4 +1,6 @@
-import './App.css';
+// import './App.css';
+import './Style.css';
+// import ScriptTag from 'react-script-tag';
 import Home from './components/Home';
 import Index from './components/Index';
 import Footer from './components/Footer';
@@ -24,6 +26,7 @@ function App() {
       <div className='body'>
 
           <Routes>
+            {/* <ScriptTag isHydrating={true} type="text/javascript" src="../main.js"/> */}
             <Route exact path='/' element={<Home />}/>
             <Route exact path='/Index' element={<Index />}/>
             <Route exact path='/Footer' element={<Footer />}/>
@@ -40,6 +43,7 @@ function App() {
           </Routes>
       </div>
     </Router>
+    
   );
 }
 

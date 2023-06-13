@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div>
       
-<section id="bottom" className='bg-dark'>
+{/* <section id="bottom" className='bg-dark'>
   <div class="container wow py-5">
     <div class="row">
       <div class="col-md-3 col-sm-6">
@@ -66,18 +66,48 @@ const Footer = () => {
       </div>
     </div>
   </div>
-</section>
+</section> */}
 
 {/* <!--/#bottom--> */}
-<footer id="footer">
+{/* <footer id="footer">
   <div class="container text-center">
     <div class="row">
       <div class="col-sm-6"> Copyright © 2021 Vivilex Technologies Pvt. Ltd. All rights reserved </div>
       <div class="col-sm-6"> </div>
     </div>
   </div>
-</footer>
+</footer> */}
 {/* <!--/#footer--> */}
+
+
+<footer id="footer">
+    <div class="container">
+      <div class="row d-flex align-items-center">
+        <div class="col-lg-6 text-lg-left text-center">
+          <div class="copyright">
+            &copy; Copyright <strong>Vesperr</strong>. All Rights Reserved
+          </div>
+          <div class="credits">
+            {/* <!-- All the links in the footer should remain intact. -->
+            <!-- You can delete the links only if you purchased the pro version. -->
+            <!-- Licensing information: https://bootstrapmade.com/license/ -->
+            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/vesperr-free-bootstrap-template/ --> */}
+            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <nav class="footer-links text-lg-right text-center pt-2 pt-lg-0">
+            <Link to="/" class="scrollto">Home</Link>
+            <Link to="/Aboutus" class="scrollto">About</Link>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Use</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+</footer>
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
     </div>
   )
 }

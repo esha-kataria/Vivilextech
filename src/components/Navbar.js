@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom'
 const Navbar = () => {
   return (
     <div>
-      <nav class="navbar navbar-expand-lg">
-  <div class="container">
+      {/* <nav class="navbar navbar-expand-lg"> */}
+  {/* <div class="container">
     <a class="navbar-brand" href="#"><img src='../logo.png'/></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -53,7 +53,41 @@ const Navbar = () => {
       </div>
     </div>
   </div>
-</nav>
+</nav> */}
+
+
+
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <div class="logo">
+        <h1><a href="index.html">Vesperr</a></h1>
+      </div>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><Link class="nav-link scrollto active" to="/">Home</Link></li>
+          <li><Link class="nav-link scrollto" to="/Aboutus">About</Link></li>
+          <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
+            <ul class="dropdown-menu">
+            <li><Link class="nav-link scrollto" to="/Services">Services</Link></li>
+              <li><Link class="dropdown-item" to="/Softwaredevelopement">Software Development</Link></li>
+              <li><Link class="dropdown-item" to="#">Cloud Services</Link></li>
+              <li><Link class="dropdown-item" to="/Mobileapplication">Mobile Application</Link></li>
+              <li><Link class="dropdown-item" to="#">Product Development</Link></li>
+              <li><Link class="dropdown-item" to="/Itconsulting">IT Consulting</Link></li>
+              <li><Link class="dropdown-item" to="/Softwaretesting">Software Testing</Link></li>
+              <li><Link class="dropdown-item" to="/Corporatetraining">Corporate Training</Link></li>
+            </ul>
+          </li>
+          <li><Link class="nav-link scrollto " to="/Portfolio">Portfolio</Link></li>
+          
+          <li><Link class="nav-link scrollto" to="/Contactus">Contact</Link></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+
+    </div>
+  </header>
     </div>
   )
 }
