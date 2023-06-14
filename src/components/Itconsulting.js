@@ -8,16 +8,16 @@ const Itconsulting = () => {
     <div>    
     <Navbar/>
 
-    <div class="page-title-container">
-        <div class="container">
+    <div className="page-title-container">
+        <div className="container">
             <h3>IT CONSULTING</h3>
         </div>
     </div>
 <section>
-<div class="container pb-5">
-<div class="row">
-  <div class="col-md-4"> <a href="#"> <img class="img-responsive pt-5" src="../consultancy.png" alt="..."/> </a> </div>
-  <div class="col-md-8 bullets">
+<div className="container pb-5">
+<div className="row">
+  <div className="col-md-4"> <a href="#"> <img className="img-responsive pt-5" src="../consultancy.png" alt="..."/> </a> </div>
+  <div className="col-md-8 bullets">
     <h3 className='pt-5'>INFORMATION TECHNOLOGY CONSULTING SERVICES</h3>
     <p>We have been instrumental in enabling clients fine tune their business and technology strategies to reach milestones early on.</p>
       

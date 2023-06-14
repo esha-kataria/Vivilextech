@@ -8,17 +8,17 @@ const Softwaredevelopement = () => {
     <div>      
     <Navbar/>
 
-    <div class="page-title-container">
-        <div class="container">
+    <div className="page-title-container">
+        <div className="container">
             <h3>SOFTWARE DEVELOPMENT</h3>
         </div>
     </div>
 <section>
 
-<div class="container py-5">
-<div class="row">
-  <div class="col-md-4"> <a href="#"> <img class="img-responsive" src="../softwaredevelopment.png" alt="..."/> </a> </div>
-  <div class="col-md-8">
+<div className="container py-5">
+<div className="row">
+  <div className="col-md-4"> <a href="#"> <img className="img-responsive" src="../softwaredevelopment.png" alt="..."/> </a> </div>
+  <div className="col-md-8">
     <p align="justify">Vivilex Technologies Pvt. Ltd is a diversified IT software solutions company offering the world class application development services to help your organization exceed its software expectations. Our philosophy is to utilize knowledge to provide value-addition for of our clients as well as our own people. Our team provides solutions &amp; services to clients with a globally accepted methodologies, tools &amp; techniques based on extensive industry experience.</p>
     <p align="justify">By judicious blend of Business analysis &amp; Management with latest technology, Vivilex  develops state-of-the-art and custom software &amp; web based applications. Vivilex enable reduction in the time and resources spent for a business process to take place for the clients, and serve to eliminate functional bottlenecks.</p>
     <p align="justify">We develop software solutions that solve business problems, transform ideas into products, and leverage ROI on IT spending. Our vast experience with offshore projects coupled with access to a large pool of skilled IT workers allows us to provide a cost-effective way of completing our client projects on time and budget. Our competencies lie in setting up offshore software development teams for custom product development, maintenance and independent software testing using superior project management experience.</p>
